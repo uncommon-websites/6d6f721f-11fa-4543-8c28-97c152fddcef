@@ -26,10 +26,9 @@
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Where AI meets your ideas"
+	subtitle="Creative thinking, uninterrupted"
+	imageSrc="/generated/image-creative-team-collaborating-on-an-innova.webp"
 />
 
 <!-- Story Section -->
