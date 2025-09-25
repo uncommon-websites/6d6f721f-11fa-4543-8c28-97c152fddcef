@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	title="Think across ideas. Not chat threads."
+	subtitle="Work visually on campaigns with endless context."
+	imageSrc="/generated/image-modern-creative-agency-in-a-sunlit-loft-.webp"
+	centered={false}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by creative teams at"
+	logoUrls={[
+		'https://cdn.brandfetch.io/ogilvy.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/wieden-kennedy.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/droga5.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/72andsunny.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
