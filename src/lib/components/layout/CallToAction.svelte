@@ -50,11 +50,22 @@
 
 	// Props
 	const {
-		title = "Get started today",
-		subtitle = "Join now",
-		description = "Ready to experience the difference? Join our community of satisfied customers and see how our solution can transform your workflow. ",
-		imageSrc = "https://www.unc.mn/image-placeholder.svg",
-		callsToAction = [cta],
+		title = "Start your next big idea on a canvas built for it",
+		subtitle = "Go from idea to execution—faster and clearer",
+		description = "No logins, no waiting. Try the canvas and see what creative flow actually feels like with AI alongside you—not in the way. Stop juggling prompts, tabs, and timelines. Canvas AI gives you one infinite canvas to think, write, and iterate with AI—your way.",
+		imageSrc = "/generated/image-candid-photo-of-a-creative-professional-.webp",
+		callsToAction = [
+			{
+				href: "/get-started",
+				label: "Try Canvas now",
+				variant: "primary"
+			},
+			{
+				href: "/contact",
+				label: "Schedule demo",
+				variant: "secondary"
+			}
+		],
 		...rest
 	}: {
 		title?: string;
@@ -91,7 +102,7 @@
 			</div>
 			<img
 				src={imageSrc}
-				alt="Visual comparison showing product benefits"
+				alt="Creative professional confidently working on campaigns in modern agency workspace"
 				class="hidden aspect-[4/5] size-full max-h-full w-full rounded-[calc(max(var(--inner-radius),.25rem))] object-cover lg:block"
 			/>
 		</div>
