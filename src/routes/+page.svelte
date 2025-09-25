@@ -32,31 +32,30 @@
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Maria Esperanza Rodriguez",
+			position: "Creative Director",
+			company: "Momentum Agency",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Canvas AI cut our campaign development time from 3 weeks to 5 days. We can now run parallel creative threads for different brand voices, saving us $40K per quarter in overtime costs while maintaining our signature creativity.",
+			image: "/generated/image-professional-headshot-of-a-confident-lat.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Kai Chen",
+			position: "Senior Copywriter",
+			company: "Bright Digital",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Before Canvas AI, I was constantly losing context switching between 8 different tools. Now I manage 15 client campaigns simultaneously on one canvas, reducing my project turnaround by 60% and eliminating the risk of mixing up brand guidelines.",
+			image: "/generated/image-professional-headshot-of-a-confident-asi.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Zara Williams",
+			position: "Content Strategy Lead",
+			company: "Studio Collective",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"The infinite canvas approach eliminated our biggest pain point—fragmented creative workflows. We've recovered 20 hours per week that were lost to tool-switching, allowing our team to take on 40% more clients without burning out.",
+			image: "/generated/image-professional-headshot-of-a-confident-bla.webp"
 		}
 	]}
 />
